@@ -1,0 +1,56 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+    /*color: blue;*/
+    /*color: #0000ff;*/
+    /*color: rgb(0, 0, 255);*/
+    /*color: hsl(240, 100, 50)*/
+    display: inline-block;
+    color: green;
+    text-decoration: none;
+    transition: color 0.15s linear;
+    padding: 8px 0;
+}
+
+li a:hover {
+  color: black;
+}
+
+li { list-style: none }
+
+body {
+    /*background: white url("images/background.gif") no-repeat right bottom;*/
+    font-family: "San Francisco Display", "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+form input, form label {
+  display: inline-block;
+  padding: 8px 0;
+  margin-left: 8px;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 10px 14px;
+  background: teal;
+  border: 0;
+  color: #eee;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+button a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.padded-list li {
+  padding: 4px;
+}
